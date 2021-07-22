@@ -1,0 +1,3 @@
+input = list(map(float ,input('Enter number of elements : ').split(' '))) 
+mean = sum(input)/len(input) 
+print(mean)
